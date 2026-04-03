@@ -2,8 +2,7 @@
 
 In this lab you will take a tour of Cloudera Data Warehouse by querying data from the Open Data Lakehouse and building a dashboard to visualize the results. 
 
-!!! info
-**The screenshots below are provided for guidance only and may not reflect exact details. Please read the lab steps carefully !!**
+!!! info The screenshots below are provided for guidance only and may not reflect exact details. Please read the lab steps carefully
 
 
 **Goals**
