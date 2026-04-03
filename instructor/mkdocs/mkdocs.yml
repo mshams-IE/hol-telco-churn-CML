@@ -42,11 +42,9 @@ use_directory_urls: false
 nav:
     - Home: 'README.md'
     - Labs:
-        - Lab 1 - Cloudera Data Flow: 'labs/lab1-cdf/README.md'
-        - Lab 2 - Cloudera Data Engineering: 'labs/lab2-cde/README.md'
-        - Lab 3 - Cloudera Data Warehouse: 'labs/lab3-cdw/README.md'
-        - Lab 4 - Cloudera AI: 'labs/lab4-cai/README.md'
-        - Lab 5 - Cloudera Data Vizualization: 'labs/lab5-dataviz/README.md'
+        - Lab 1 - Cloudera Data Warehouse: 'labs/lab3-cdw/README.md'
+        - Lab 2 - Cloudera AI: 'labs/lab4-cai/README.md'
+        - Lab 3 - Cloudera Data Vizualization: 'labs/lab5-dataviz/README.md'
     - Guides:
         - Cloudera on cloud access: 'guides/cdp-account/README.md'
 
@@ -88,10 +86,10 @@ plugins:
 # Define values for macros here
 extra:
     generator: false
-    cdp_environment_name: enablement-cdp-env
+    cdp_environment_name: cloudera-hol-cdp-env
     kafka_to_lakehouse_flow_name: churn-hol-kafka-to-lakehouse
-    hive_jdbc_url: jdbc:hive2://hs2-churn-hol-hive-001.dw-enablement-cdp-env.a465-9q4k.cloudera.site/default;transportMode=http;httpPath=cliservice;socketTimeout=60;ssl=true;retries=3;
+    hive_jdbc_url: jdbc:hive2://hs2-hive.dw-cloudera-hol-cdp-env.sm02r9.b0.cloudera.site/default;transportMode=http;httpPath=cliservice;socketTimeout=60;ssl=true;auth=browser;
     kafka_brokers: churn-hol-smm-dh-corebroker2.enableme.a465-9q4k.cloudera.site:9093, churn-hol-smm-dh-corebroker1.enableme.a465-9q4k.cloudera.site:9093, churn-hol-smm-dh-corebroker0.enableme.a465-9q4k.cloudera.site:9093
     kafka_topic: telco_data
-    cai_workbench_name: churn-hol-default-ml
+    cai_workbench_name: ClouderaAI
     cde_virtual_cluster_name: churn-hol-vc
