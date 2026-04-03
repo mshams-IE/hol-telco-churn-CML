@@ -1,6 +1,9 @@
-# Lab 4 - Cloudera AI
+# Lab 2 - Cloudera AI
 
 In this lab you will get hands-on with Cloudera AI by training a machine learning model. You will then deploy the model as a REST API for real time predication.
+
+!!! info 
+    The screenshots below are provided for guidance only and may not reflect exact details. Please read the lab steps carefully
 
 **Goals**
 
@@ -67,7 +70,7 @@ In the Advanced settings, under Environment Variables, add a new variable by pre
 For the new environment variable enter the following:
 
 - **Key**: Enter `DATABASE`.
-- **Value**: Enter your Workload Username, `USERNAME`
+- **Value**: telcodb
 
 Click on the button **Submit** to save the new environment variable.
 
@@ -180,4 +183,7 @@ If you wish, you can change some of the parameters of the **Input** field (for e
 
 ![Cloudera AI Churn Model Test](cai_model_churn_test.png)
 
-**End of Lab 4**
+!!! Hint 
+    Please remember to stop your running session to release the allocated resources.
+
+**End of Lab 2**
